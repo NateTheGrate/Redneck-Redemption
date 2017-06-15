@@ -47,6 +47,6 @@ Temporary Items
 .apdisk
 
 #stupid files and crap
-*.meta*
-/Library/*
-/Temp/*
+*.meta
+Library/
+Temp/
