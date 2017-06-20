@@ -72,10 +72,10 @@ MonoBehaviour:
     m_Enabled: 0
     m_Settings:
       focusDistance: 10
-      aperture: 9.9
-      focalLength: 227
+      aperture: 26
+      focalLength: 300
       useCameraFov: 0
-      kernelSize: 1
+      kernelSize: 0
   motionBlur:
     m_Enabled: 1
     m_Settings:
@@ -97,7 +97,7 @@ MonoBehaviour:
       logMin: -8
       logMax: 5
   bloom:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       bloom:
         intensity: 0.8
@@ -298,7 +298,7 @@ MonoBehaviour:
       mode: 0
       color: {r: 0, g: 0, b: 0, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 0.229
+      intensity: 0.028
       smoothness: 0.2
       roundness: 1
       mask: {fileID: 0}
