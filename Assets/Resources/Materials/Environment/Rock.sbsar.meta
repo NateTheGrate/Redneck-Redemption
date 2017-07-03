@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e8fef2400e8d3044a97d9c3c50c1aac1
-timeCreated: 1499059848
+timeCreated: 1499066729
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -16,84 +16,84 @@ SubstanceImporter:
     inputs:
     - name: Dirt_Amount
       value:
-        scalar[0]: 0.214
+        scalar[0]: 0.166
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: Dirt_Roughness
       value:
-        scalar[0]: 1
+        scalar[0]: 0.572
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: Roughness_Amount
       value:
-        scalar[0]: 1
+        scalar[0]: 0.44
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: Roughness_Intensity
       value:
-        scalar[0]: 0
+        scalar[0]: 0.544
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: Dirt_Color
       value:
-        scalar[0]: 1
-        scalar[1]: 0
-        scalar[2]: 0
+        scalar[0]: 0.5661765
+        scalar[1]: 0.04995676
+        scalar[2]: 0.04995676
         scalar[3]: 1
         texture: {instanceID: 0}
     - name: Base_Color
       value:
-        scalar[0]: 0.6691177
-        scalar[1]: 0.6691177
-        scalar[2]: 0.6691177
+        scalar[0]: 0.72783303
+        scalar[1]: 0.8230148
+        scalar[2]: 0.9338235
         scalar[3]: 1
         texture: {instanceID: 0}
     - name: Dirt_Blur
       value:
-        scalar[0]: 1
+        scalar[0]: 0.2
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: Normal_Intensity
       value:
-        scalar[0]: 3
+        scalar[0]: 2.57
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: Detail_Blur
       value:
-        scalar[0]: 0.66
+        scalar[0]: 0.338
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: Chunk_Displacement
       value:
-        scalar[0]: 0.6
+        scalar[0]: 1
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: Displacement_Blur
       value:
-        scalar[0]: 0.31
+        scalar[0]: 0.352
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: Displacement_Amount
       value:
-        scalar[0]: 1
+        scalar[0]: 0.186
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -103,7 +103,7 @@ SubstanceImporter:
       offset: {x: 0, y: 0}
       scale: {x: 3, y: 3}
       generateMipmaps: 1
-      generateAllOutputs: 0
+      generateAllOutputs: 1
       animationUpdateRate: 42
     materialProperties:
       serializedVersion: 3
@@ -155,7 +155,7 @@ SubstanceImporter:
       - _Metallic: 0
       - _Mode: 0
       - _OcclusionStrength: 1
-      - _Parallax: 0.061
+      - _Parallax: 0.08
       - _SmoothnessTextureChannel: 0
       - _SpecularHighlights: 1
       - _SrcBlend: 1
@@ -181,6 +181,11 @@ SubstanceImporter:
       aniso: 1
       wrapMode: 0
     - name: Concrete_Dirt_height
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Concrete_Dirt_roughness
       alphaSource: 0
       filterMode: 1
       aniso: 1
