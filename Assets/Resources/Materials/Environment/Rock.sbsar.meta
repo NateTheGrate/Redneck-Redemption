@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e8fef2400e8d3044a97d9c3c50c1aac1
-timeCreated: 1499399770
+timeCreated: 1499409248
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -16,7 +16,7 @@ SubstanceImporter:
     inputs:
     - name: Dirt_Amount
       value:
-        scalar[0]: 0.165
+        scalar[0]: 0.16
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -44,16 +44,16 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: Dirt_Color
       value:
-        scalar[0]: 0.625
-        scalar[1]: 0.390625
-        scalar[2]: 0.390625
+        scalar[0]: 0.60294116
+        scalar[1]: 0.48767298
+        scalar[2]: 0.48767298
         scalar[3]: 1
         texture: {instanceID: 0}
     - name: Base_Color
       value:
-        scalar[0]: 0.77205884
-        scalar[1]: 0.66611606
-        scalar[2]: 0.584721
+        scalar[0]: 0.89705884
+        scalar[1]: 0.8049875
+        scalar[2]: 0.60683393
         scalar[3]: 1
         texture: {instanceID: 0}
     - name: Dirt_Blur
@@ -79,21 +79,21 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: Chunk_Displacement
       value:
-        scalar[0]: 1
+        scalar[0]: 0.395
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: Displacement_Blur
       value:
-        scalar[0]: 0.352
+        scalar[0]: 0.534
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: Displacement_Amount
       value:
-        scalar[0]: 0.186
+        scalar[0]: 0
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
