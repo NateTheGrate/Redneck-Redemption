@@ -27,7 +27,7 @@ MonoBehaviour:
   fog:
     m_Enabled: 1
     m_Settings:
-      excludeSkybox: 1
+      excludeSkybox: 0
   antialiasing:
     m_Enabled: 1
     m_Settings:
@@ -42,9 +42,9 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 1.86
-      radius: 0.5
-      sampleCount: 16
+      intensity: 0.86
+      radius: 0.1
+      sampleCount: 3
       downsampling: 0
       forceForwardCompatibility: 0
       ambientOnly: 0
@@ -69,11 +69,11 @@ MonoBehaviour:
       screenEdgeMask:
         intensity: 0.03
   depthOfField:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
-      focusDistance: 7
-      aperture: 28
-      focalLength: 300
+      focusDistance: 12
+      aperture: 32
+      focalLength: 266
       useCameraFov: 0
       kernelSize: 2
   motionBlur:
@@ -85,17 +85,17 @@ MonoBehaviour:
   eyeAdaptation:
     m_Enabled: 0
     m_Settings:
-      lowPercent: 6.1204004
-      highPercent: 67.73792
-      minLuminance: -10
-      maxLuminance: 100
-      keyValue: 0.4
+      lowPercent: 26.848112
+      highPercent: 50.869034
+      minLuminance: -0.8
+      maxLuminance: 10
+      keyValue: 0.74
       dynamicKeyValue: 0
       adaptationType: 0
-      speedUp: 2
-      speedDown: 1
-      logMin: -8
-      logMax: 5
+      speedUp: 2.6
+      speedDown: 2
+      logMin: -1
+      logMax: 1
   bloom:
     m_Enabled: 1
     m_Settings:
